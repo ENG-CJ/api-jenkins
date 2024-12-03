@@ -9,7 +9,8 @@ app.get("/",(req,res)=>{
 app.get("/user", (req, res) => {
   return res.send({
    user: "Abdulrahman",
-   IPO: "X012LSJ"
+   IPO: "X012LSJ",
+   trimon: "IPV4"
   });
 });
 
